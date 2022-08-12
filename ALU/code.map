@@ -1,0 +1,226 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Jan 11 22:37:51 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000010    program   0x0006bc
+      .config_2007_CODE.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000010    0x00036d      
+                            0x002007    0x002007      
+            864 out of 8454 program addresses used, program memory utilization is 10%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   ASmall   0x00005e    program     static C:\Users\Laith\Documents\final\code.asm
+                     Abig   0x000077    program     static C:\Users\Laith\Documents\final\code.asm
+                     Areg   0x000105    program     static C:\Users\Laith\Documents\final\code.asm
+                     Breg   0x000113    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT5   0x000283    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT6   0x000285    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT7   0x000287    program     static C:\Users\Laith\Documents\final\code.asm
+                Count100s   0x0000f1    program     static C:\Users\Laith\Documents\final\code.asm
+                 Count10s   0x0000fa    program     static C:\Users\Laith\Documents\final\code.asm
+                     Creg   0x000121    program     static C:\Users\Laith\Documents\final\code.asm
+                      DEV   0x0000a4    program     static C:\Users\Laith\Documents\final\code.asm
+                    DLOOP   0x0000ae    program     static C:\Users\Laith\Documents\final\code.asm
+                 ERRORLCD   0x0002fe    program     static C:\Users\Laith\Documents\final\code.asm
+                  Find10s   0x0000f8    program     static C:\Users\Laith\Documents\final\code.asm
+                   Find1s   0x000100    program     static C:\Users\Laith\Documents\final\code.asm
+                    MLOOP   0x00009f    program     static C:\Users\Laith\Documents\final\code.asm
+                     MULT   0x00009c    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSubA   0x000067    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSubB   0x000084    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSumA   0x00006f    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSubA   0x00006b    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSubB   0x000080    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSumA   0x000073    program     static C:\Users\Laith\Documents\final\code.asm
+                      POW   0x0000b5    program     static C:\Users\Laith\Documents\final\code.asm
+                   POWMUL   0x0000d8    program     static C:\Users\Laith\Documents\final\code.asm
+                  RESULT1   0x000209    program     static C:\Users\Laith\Documents\final\code.asm
+                     SUBS   0x000050    program     static C:\Users\Laith\Documents\final\code.asm
+                    Start   0x0000e8    program     static C:\Users\Laith\Documents\final\code.asm
+                 bcdcount   0x0000ee    program     static C:\Users\Laith\Documents\final\code.asm
+                    check   0x00012f    program     static C:\Users\Laith\Documents\final\code.asm
+                   checkA   0x00005e    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkA1   0x000077    program     static C:\Users\Laith\Documents\final\code.asm
+                   checkB   0x000061    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB1   0x00007a    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB2   0x000064    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB3   0x00007d    program     static C:\Users\Laith\Documents\final\code.asm
+                countOneA   0x000088    program     static C:\Users\Laith\Documents\final\code.asm
+               countZeroB   0x000092    program     static C:\Users\Laith\Documents\final\code.asm
+                   del_01   0x000353    program     static C:\Users\Laith\Documents\final\code.asm
+                   del_41   0x00034a    program     static C:\Users\Laith\Documents\final\code.asm
+               delay_500m   0x000281    program     static C:\Users\Laith\Documents\final\code.asm
+                     disp   0x0002fc    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayA   0x00015b    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayB   0x000192    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayC   0x0001c9    program     static C:\Users\Laith\Documents\final\code.asm
+                   finish   0x00036e    program     static C:\Users\Laith\Documents\final\code.asm
+                     init   0x000319    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumA   0x00013c    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumB   0x000173    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumC   0x0001aa    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb00   0x0002ed    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb01   0x0002ef    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb02   0x0002f1    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb03   0x0002f2    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb04   0x0002f3    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb05   0x0002f4    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb06   0x0002f5    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb07   0x0002f6    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb08   0x0002f7    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb09   0x0002f8    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0a   0x0002e7    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0a1   0x0002b9    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0b   0x0002e9    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0b1   0x0002ba    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0c   0x0002eb    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0c1   0x0002bb    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0d   0x0002f9    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0e   0x0002fa    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0f   0x0002fb    program     static C:\Users\Laith\Documents\final\code.asm
+                     lcdc   0x000336    program     static C:\Users\Laith\Documents\final\code.asm
+                     lcdd   0x000340    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa1   0x00035c    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa2   0x00035a    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa3   0x000367    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa4   0x000365    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa5   0x000363    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa6   0x00034c    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa7   0x00034e    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa8   0x000355    program     static C:\Users\Laith\Documents\final\code.asm
+                     main   0x00002c    program     static C:\Users\Laith\Documents\final\code.asm
+                     mdel   0x000361    program     static C:\Users\Laith\Documents\final\code.asm
+                      mul   0x0000e1    program     static C:\Users\Laith\Documents\final\code.asm
+                   negRes   0x00025a    program     static C:\Users\Laith\Documents\final\code.asm
+                  opCheck   0x000031    program     static C:\Users\Laith\Documents\final\code.asm
+                   posRes   0x000233    program     static C:\Users\Laith\Documents\final\code.asm
+                   printA   0x0000d5    program     static C:\Users\Laith\Documents\final\code.asm
+                     res1   0x0000bd    program     static C:\Users\Laith\Documents\final\code.asm
+                    reset   0x000000    program     static C:\Users\Laith\Documents\final\code.asm
+                   result   0x0001e1    program     static C:\Users\Laith\Documents\final\code.asm
+                  result2   0x0000cb    program     static C:\Users\Laith\Documents\final\code.asm
+                  result4   0x0000ce    program     static C:\Users\Laith\Documents\final\code.asm
+                     sdel   0x000358    program     static C:\Users\Laith\Documents\final\code.asm
+                    start   0x000010    program     static C:\Users\Laith\Documents\final\code.asm
+                     wait   0x000318    program     static C:\Users\Laith\Documents\final\code.asm
+                      wkb   0x0002bc    program     static C:\Users\Laith\Documents\final\code.asm
+                     wkb1   0x00028e    program     static C:\Users\Laith\Documents\final\code.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    reset   0x000000    program     static C:\Users\Laith\Documents\final\code.asm
+                    start   0x000010    program     static C:\Users\Laith\Documents\final\code.asm
+                     main   0x00002c    program     static C:\Users\Laith\Documents\final\code.asm
+                  opCheck   0x000031    program     static C:\Users\Laith\Documents\final\code.asm
+                     SUBS   0x000050    program     static C:\Users\Laith\Documents\final\code.asm
+                   ASmall   0x00005e    program     static C:\Users\Laith\Documents\final\code.asm
+                   checkA   0x00005e    program     static C:\Users\Laith\Documents\final\code.asm
+                   checkB   0x000061    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB2   0x000064    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSubA   0x000067    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSubA   0x00006b    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSumA   0x00006f    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSumA   0x000073    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkA1   0x000077    program     static C:\Users\Laith\Documents\final\code.asm
+                     Abig   0x000077    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB1   0x00007a    program     static C:\Users\Laith\Documents\final\code.asm
+                  checkB3   0x00007d    program     static C:\Users\Laith\Documents\final\code.asm
+                  POSSubB   0x000080    program     static C:\Users\Laith\Documents\final\code.asm
+                  NEGSubB   0x000084    program     static C:\Users\Laith\Documents\final\code.asm
+                countOneA   0x000088    program     static C:\Users\Laith\Documents\final\code.asm
+               countZeroB   0x000092    program     static C:\Users\Laith\Documents\final\code.asm
+                     MULT   0x00009c    program     static C:\Users\Laith\Documents\final\code.asm
+                    MLOOP   0x00009f    program     static C:\Users\Laith\Documents\final\code.asm
+                      DEV   0x0000a4    program     static C:\Users\Laith\Documents\final\code.asm
+                    DLOOP   0x0000ae    program     static C:\Users\Laith\Documents\final\code.asm
+                      POW   0x0000b5    program     static C:\Users\Laith\Documents\final\code.asm
+                     res1   0x0000bd    program     static C:\Users\Laith\Documents\final\code.asm
+                  result2   0x0000cb    program     static C:\Users\Laith\Documents\final\code.asm
+                  result4   0x0000ce    program     static C:\Users\Laith\Documents\final\code.asm
+                   printA   0x0000d5    program     static C:\Users\Laith\Documents\final\code.asm
+                   POWMUL   0x0000d8    program     static C:\Users\Laith\Documents\final\code.asm
+                      mul   0x0000e1    program     static C:\Users\Laith\Documents\final\code.asm
+                    Start   0x0000e8    program     static C:\Users\Laith\Documents\final\code.asm
+                 bcdcount   0x0000ee    program     static C:\Users\Laith\Documents\final\code.asm
+                Count100s   0x0000f1    program     static C:\Users\Laith\Documents\final\code.asm
+                  Find10s   0x0000f8    program     static C:\Users\Laith\Documents\final\code.asm
+                 Count10s   0x0000fa    program     static C:\Users\Laith\Documents\final\code.asm
+                   Find1s   0x000100    program     static C:\Users\Laith\Documents\final\code.asm
+                     Areg   0x000105    program     static C:\Users\Laith\Documents\final\code.asm
+                     Breg   0x000113    program     static C:\Users\Laith\Documents\final\code.asm
+                     Creg   0x000121    program     static C:\Users\Laith\Documents\final\code.asm
+                    check   0x00012f    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumA   0x00013c    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayA   0x00015b    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumB   0x000173    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayB   0x000192    program     static C:\Users\Laith\Documents\final\code.asm
+               inputsNumC   0x0001aa    program     static C:\Users\Laith\Documents\final\code.asm
+                 displayC   0x0001c9    program     static C:\Users\Laith\Documents\final\code.asm
+                   result   0x0001e1    program     static C:\Users\Laith\Documents\final\code.asm
+                  RESULT1   0x000209    program     static C:\Users\Laith\Documents\final\code.asm
+                   posRes   0x000233    program     static C:\Users\Laith\Documents\final\code.asm
+                   negRes   0x00025a    program     static C:\Users\Laith\Documents\final\code.asm
+               delay_500m   0x000281    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT5   0x000283    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT6   0x000285    program     static C:\Users\Laith\Documents\final\code.asm
+                    CONT7   0x000287    program     static C:\Users\Laith\Documents\final\code.asm
+                     wkb1   0x00028e    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0a1   0x0002b9    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0b1   0x0002ba    program     static C:\Users\Laith\Documents\final\code.asm
+                    kb0c1   0x0002bb    program     static C:\Users\Laith\Documents\final\code.asm
+                      wkb   0x0002bc    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0a   0x0002e7    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0b   0x0002e9    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0c   0x0002eb    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb00   0x0002ed    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb01   0x0002ef    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb02   0x0002f1    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb03   0x0002f2    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb04   0x0002f3    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb05   0x0002f4    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb06   0x0002f5    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb07   0x0002f6    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb08   0x0002f7    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb09   0x0002f8    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0d   0x0002f9    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0e   0x0002fa    program     static C:\Users\Laith\Documents\final\code.asm
+                     kb0f   0x0002fb    program     static C:\Users\Laith\Documents\final\code.asm
+                     disp   0x0002fc    program     static C:\Users\Laith\Documents\final\code.asm
+                 ERRORLCD   0x0002fe    program     static C:\Users\Laith\Documents\final\code.asm
+                     wait   0x000318    program     static C:\Users\Laith\Documents\final\code.asm
+                     init   0x000319    program     static C:\Users\Laith\Documents\final\code.asm
+                     lcdc   0x000336    program     static C:\Users\Laith\Documents\final\code.asm
+                     lcdd   0x000340    program     static C:\Users\Laith\Documents\final\code.asm
+                   del_41   0x00034a    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa6   0x00034c    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa7   0x00034e    program     static C:\Users\Laith\Documents\final\code.asm
+                   del_01   0x000353    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa8   0x000355    program     static C:\Users\Laith\Documents\final\code.asm
+                     sdel   0x000358    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa2   0x00035a    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa1   0x00035c    program     static C:\Users\Laith\Documents\final\code.asm
+                     mdel   0x000361    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa5   0x000363    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa4   0x000365    program     static C:\Users\Laith\Documents\final\code.asm
+                   lulaa3   0x000367    program     static C:\Users\Laith\Documents\final\code.asm
+                   finish   0x00036e    program     static C:\Users\Laith\Documents\final\code.asm
+
+

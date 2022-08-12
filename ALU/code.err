@@ -1,0 +1,18 @@
+Warning[205] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 1 : Found directive in column 1. (LIST)
+Message[302] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 34 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 35 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 36 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 38 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 39 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 96 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 98 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 170 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 172 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 174 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 176 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 182 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 184 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 186 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 188 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 219 : Using default destination of 1 (file).
+Message[305] C:\USERS\LAITH\DOCUMENTS\FINAL\CODE.ASM 290 : Using default destination of 1 (file).
